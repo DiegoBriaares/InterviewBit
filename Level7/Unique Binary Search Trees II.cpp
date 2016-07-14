@@ -1,4 +1,4 @@
-int memo[1002];
+int memo[1001];
 int dp(int x){
 	if(x==1)return 1;
 	if(memo[x])return memo[x];
